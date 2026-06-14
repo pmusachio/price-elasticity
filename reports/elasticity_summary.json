@@ -1,9 +1,0 @@
-{
-  "n_products_analyzed": 647,
-  "n_elastic": 123,
-  "n_inelastic": 78,
-  "median_elasticity": 1.2038424891317214,
-  "median_r2": 0.14735665698229805,
-  "high_quality_r2_gt_0.10": 386,
-  "significant_p_lt_0.05": 340
-}

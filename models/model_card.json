@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-14T14:55:17+00:00",
+  "dataset": "datafiniti/electronic-products-prices",
+  "data_sha256": "85ba4467981c3706a13eb6dccf913845653d537bc7f41cdaed78dc350b38441a",
+  "problem": "per-product price elasticity (log-log demand regression)",
+  "summary": {
+    "total_products": 647,
+    "well_fit_products": 459,
+    "reliable_products": 108,
+    "pct_negative_sign": 31.1,
+    "median_reliable_elasticity": -2.0298,
+    "pct_elastic_among_reliable": 81.5
+  },
+  "most_elastic": [
+    {
+      "product": "Seagate Backup Plus Hub 8TB External Desktop Hard Drive Storage + 2mo Adobe CC Photography (STEL8000100)",
+      "elasticity": -9.9362,
+      "ci95": [
+        -12.1866,
+        -7.6859
+      ],
+      "r2": 0.6878,
+      "n": 36,
+      "avg_price": 183.75,
+      "avg_demand": 3.72,
+      "category": "drive, storage, hard",
+      "well_fit": true,
+      "elastic": true,
+      "reliable": true
+    },
+    {
+      "product": "Details About Seagate 4 Terabyte (4tb) Superspeed Usb 3.0 Game Drive For Xbox One Stea4000402",
+      "elasticity": -9.8691,
+      "ci95": [
+        -12.8028,
+        -6.9355
+      ],
+      "r2": 0.7699,
+      "n": 15,
+      "avg_price": 138.41,
+      "avg_demand": 6.2,
+      "category": "drive, storage, hard",
+      "well_fit": true,
+      "elastic": true,
+      "reliable": true
+    },
+    {
+      "product": "PNY - XLR8 NVIDIA GeForce GTX 1080 8GB GDDR5X PCI Express 3.0 Graphics Card - Black/Red",
+      "elasticity": -8.064,
+      "ci95": [
+        -13.2904,
+        -2.8377
+      ],
+      "r2": 0.3788,
+      "n": 17,
+      "avg_price": 591.9,
+      "avg_demand": 3.82,
+      "category": "graphic, card, computer",
+      "well_fit": true,
+      "elastic": true,
+      "reliable": true
+    },
+    {
+      "product": "Dual - 10 Single-Voice-Coil 4-Ohm Subwoofer with Enclosure - Black/Silver\"",
+      "elasticity": -7.4188,
+      "ci95": [
+        -14.3465,
+        -0.4911
+      ],
+      "r2": 0.1734,
+      "n": 23,
+      "avg_price": 66.3,
+      "avg_demand": 9.26,
+      "category": "car, speaker, subwoofer",
+      "well_fit": true,
+      "elastic": true,
+      "reliable": true
+    },
+    {
+      "product": "SKW-204 10 230W Powered Subwoofer",
+      "elasticity": -6.4049,
+      "ci95": [
+        -12.1305,
+        -0.6793
+      ],
+      "r2": 0.1863,
+      "n": 23,
+      "avg_price": 147.8,
+      "avg_demand": 11.09,
+      "category": "speaker, subwoofer, separate",
+      "well_fit": true,
+      "elastic": true,
+      "reliable": true
+    }
+  ],
+  "least_elastic": [
+    {
+      "product": "Samsung SNH-P6410BN SmartCam HD Pro 1080p WiFi IP Camera",
+      "elasticity": -0.3977,
+      "ci95": [
+        -1.0339,
+        0.2384
+      ],
+      "r2": 0.0698,
+      "n": 22,
+      "avg_price": 162.22,
+      "avg_demand": 3.36,
+      "category": "security, surveillance, camera",
+      "well_fit": true,
+      "elastic": false,
+      "reliable": true
+    },
+    {
+      "product": "Zoom - H1 Handy Recorder - Black",
+      "elasticity": -0.2939,
+      "ci95": [
+        -0.376,
+        -0.2117
+      ],
+      "r2": 0.5113,
+      "n": 49,
+      "avg_price": 160.27,
+      "avg_demand": 8.76,
+      "category": "player, home, audio",
+      "well_fit": true,
+      "elastic": false,
+      "reliable": true
+    },
+    {
+      "product": "RODE - NTG1 Condenser Shotgun Microphone",
+      "elasticity": -0.2491,
+      "ci95": [
+        -0.4367,
+        -0.0615
+      ],
+      "r2": 0.1389,
+      "n": 44,
+      "avg_price": 377.27,
+      "avg_demand": 11.14,
+      "category": "microphone, musical, instrument",
+      "well_fit": true,
+      "elastic": false,
+      "reliable": true
+    },
+    {
+      "product": "Details About Garmin Etrex 10 Handheld Outdoor Hiking Gps Receiver Brand New 0100097000",
+      "elasticity": -0.2275,
+      "ci95": [
+        -0.4589,
+        0.0039
+      ],
+      "r2": 0.0583,
+      "n": 62,
+      "avg_price": 49.91,
+      "avg_demand": 3.31,
+      "category": "gps, navigation, car",
+      "well_fit": true,
+      "elastic": false,
+      "reliable": true
+    },
+    {
+      "product": "Apple iPhone SE Gold 16GB for Sprint ( MLY92LL/A )",
+      "elasticity": -0.1479,
+      "ci95": [
+        -0.3465,
+        0.0506
+      ],
+      "r2": 0.1115,
+      "n": 19,
+      "avg_price": 50.7,
+      "avg_demand": 2.47,
+      "category": "phone, cell",
+      "well_fit": true,
+      "elastic": false,
+      "reliable": true
+    }
+  ]
+}
