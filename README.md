@@ -93,7 +93,7 @@ raise prices on inelastic ones**, rather than running a uniform promotion.
    ```
    streamlit run app/streamlit_app.py
    ```
-7. **Live app** — [huggingface.co/spaces/pmusachio/price-elasticity](https://huggingface.co/spaces/pmusachio/price-elasticity) — pick a product and simulate a discount.
+7. **Live app** — [price-elasticity-bqul.onrender.com](https://price-elasticity-bqul.onrender.com) — pick a product and simulate a discount.
 
 ## Next Steps
 
